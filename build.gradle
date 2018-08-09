@@ -4,9 +4,11 @@ version '0.1.0'
 buildscript {
     repositories {
         mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5"
     }
 }
 
@@ -15,6 +17,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'org.sonarqube'
 
 bootJar {
     baseName = 'api-standards'
@@ -34,4 +37,15 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", 'springboot-hello-world'
+        property "sonar.host.url","http://localhost:9000"
+        property "sonar.java.coveragePlugin","jacoco"
+        property "sonar.java.binaries","${buildDir}/classes"
+        property "sonar.java.libraries","**/*.jar"
+        property "sonar.dynamicAnalysis","reuseReports"
+    }
 }
