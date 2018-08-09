@@ -8,10 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 public class OrderController {
-    private static String nullObject = null;
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String index(HttpServletResponse response) {
+        System.out.println("working");
         return "Hello World! test 1234";
     }
 
