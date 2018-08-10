@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b4f3625-001a-411c-895c-e4a355966d14" name="Default" comment="Unit tests added">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+    <list default="true" id="4b4f3625-001a-411c-895c-e4a355966d14" name="Default" comment="Failed unit test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/sysco/ordermgmt/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/sysco/ordermgmt/controller/OrderController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/HttpRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/HttpRequestTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -135,15 +129,15 @@
         <counts>
           <entry key="dummy" value="10" />
           <entry key="gradle" value="54" />
-          <entry key="java" value="231" />
-          <entry key="txt" value="192" />
+          <entry key="java" value="232" />
+          <entry key="txt" value="208" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="54" />
-          <entry key="JAVA" value="231" />
-          <entry key="PLAIN_TEXT" value="202" />
+          <entry key="JAVA" value="232" />
+          <entry key="PLAIN_TEXT" value="218" />
         </counts>
       </usages-collector>
     </session>
@@ -190,8 +184,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/HttpRequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="169">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -774,7 +768,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533892650777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533893572973" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -801,7 +795,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HttpRequestTest">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -882,9 +876,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.HttpRequestTest" />
         <item itemvalue="JUnit.ApplicationTest" />
-        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.SampleTest" />
       </list>
     </recent_temporary>
@@ -908,7 +902,7 @@
       <workItem from="1533637203926" duration="589000" />
       <workItem from="1533804296275" duration="2915000" />
       <workItem from="1533809239016" duration="6479000" />
-      <workItem from="1533875905089" duration="6777000" />
+      <workItem from="1533875905089" duration="7692000" />
     </task>
     <task id="LOCAL-00001" summary="sonarqube added">
       <created>1533804696320</created>
@@ -973,7 +967,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533892551592</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Failed unit test">
+      <created>1533893078164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533893078164</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1009,7 +1010,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21305000" />
+    <option name="totallyTimeSpent" value="22220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1309" height="743" extended-state="6" />
@@ -1025,13 +1026,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34183672" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5170068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.6020408" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3792517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35714287" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1068,7 +1069,8 @@
     <MESSAGE value="Sonarqube check validation" />
     <MESSAGE value="Sonarqube validation failed" />
     <MESSAGE value="Unit tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit tests added" />
+    <MESSAGE value="Failed unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Failed unit test" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1155,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/HttpRequestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="169">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
