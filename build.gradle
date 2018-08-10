@@ -9,6 +9,7 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5"
+
     }
 }
 
@@ -21,7 +22,7 @@ apply plugin: 'org.sonarqube'
 
 bootJar {
     baseName = 'api-standards'
-    version =  '0.1.0'
+    version = '0.1.0'
 }
 
 task wrapper(type: Wrapper) {
@@ -42,10 +43,10 @@ dependencies {
 sonarqube {
     properties {
         property "sonar.projectName", 'springboot-hello-world'
-        property "sonar.host.url","http://localhost:9000"
-        property "sonar.java.coveragePlugin","jacoco"
-        property "sonar.java.binaries","${buildDir}/classes"
-        property "sonar.java.libraries","**/*.jar"
-        property "sonar.dynamicAnalysis","reuseReports"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.java.coveragePlugin", "jacoco"
+        property "sonar.java.binaries", "${buildDir}/classes"
+        property "sonar.java.libraries", "**/*.jar"
+        property "sonar.dynamicAnalysis", "reuseReports"
     }
 }

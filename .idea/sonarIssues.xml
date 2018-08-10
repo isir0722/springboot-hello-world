@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../gs-rest-service/complete/build.gradle">
           <value>
             <set />
@@ -19,6 +24,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/sysco/ordermgmt/controller/OrderController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/SampleTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/tmp/tmp__OrderController.class">
           <value>
             <set />
           </value>
