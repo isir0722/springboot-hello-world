@@ -38,6 +38,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/ApplicationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/HttpRequestTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/SmokeTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sysco/ordermgmt/WebLayerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/tmp/tmp__OrderController.class">
           <value>
             <set />
