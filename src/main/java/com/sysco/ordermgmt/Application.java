@@ -11,3 +11,9 @@ public class Application {
     }
 
 }
+
+class testClass {
+    String fdf;
+    String nulld;
+
+}
