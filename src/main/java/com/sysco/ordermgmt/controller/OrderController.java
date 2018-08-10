@@ -11,7 +11,6 @@ public class OrderController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String index(HttpServletResponse response) {
-        System.out.println("working");
         return "Hello World! test 1234";
     }
 
